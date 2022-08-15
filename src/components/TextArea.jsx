@@ -7,7 +7,7 @@ const TextArea = () => {
     <Wrapper>
       <button
         onClick={(e) => {
-          navigator.clipboard.writeText(JSON.stringify(text));
+          navigator.clipboard.writeText(JSON.stringify(text.text));
         }}
         className='copy'
       >

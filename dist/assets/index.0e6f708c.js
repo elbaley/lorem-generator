@@ -87,7 +87,7 @@ Error generating stack: `+i.message+`
     height: 1.5rem;
     padding: 1px 2px;
   }
-`,tw=()=>{const e=U0(t=>t.text);return Wr(nw,{children:[je("button",{onClick:t=>{navigator.clipboard.writeText(JSON.stringify(e))},className:"copy",children:je("svg",{class:"copyIcon",viewBox:"0 0 24 24",children:je("path",{d:"M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"})})}),je("div",{className:"text",children:e.text})]})},nw=Rs.section`
+`,tw=()=>{const e=U0(t=>t.text);return Wr(nw,{children:[je("button",{onClick:t=>{navigator.clipboard.writeText(JSON.stringify(e.text))},className:"copy",children:je("svg",{class:"copyIcon",viewBox:"0 0 24 24",children:je("path",{d:"M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"})})}),je("div",{className:"text",children:e.text})]})},nw=Rs.section`
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 1rem;
